@@ -1,0 +1,9 @@
+[gd_meetup]{
+	font-size: 24px;
+	font-weight: 500;
+	color: #F0F1F1;
+}
+
+[gd_meetup_persons] {
+	gap: 16px;
+}

@@ -1,0 +1,21 @@
+[gd_meetup_profile] {
+	padding: 16px;
+	border-radius: 16px;
+	background: #0D2230;
+	gap: 16px;
+}
+
+[gd_meetup_profile_avatar] {
+	min-width: 200px!important;
+	min-height: 200px!important;
+	border-radius: 16px;
+}
+
+[gd_meetup_profile_name] {
+	color: #D6A560;
+}
+
+[gd_meetup_profile_info] {
+	flex-direction: column;
+	gap: 16px;
+}

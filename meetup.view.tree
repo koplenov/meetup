@@ -23,17 +23,15 @@ $gd_meetup $mol_page
 		<= Button4 $gd_meetup_ui_title 
 			text \Кто будет?
 			color \#60A7D6
-		<= Text4 $mol_text text \
-			\Дмитрий Карловский
-			\Профессиональный инноватор, приносящий из будущего технологии, которые простыми способами решают сложные проблемы уже сейчас
-		<= Person $gd_meetup_profile
-			uri \https://meetup.kinsle.ru/source/images/dmitriy.png
-			name \Дмитрий Карловский
-			description \Профессиональный инноватор, приносящий из будущего технологии, которые простыми способами решают сложные проблемы уже сейчас
-		<= Person2 $gd_meetup_profile
-			uri \https://meetup.kinsle.ru/source/images/valentin.png
-			name \Валентин Ульянов
-			description \Занимается разработкой инструментов и бэкендом на Node.js, делает редактор схем и диаграмм. Свой open source проект. ведёт местное IT-сообщество.
+		<= Persons $mol_list rows /
+			<= Person $gd_meetup_profile
+				uri \https://meetup.kinsle.ru/source/images/dmitriy.png
+				name \Дмитрий Карловский
+				description \Профессиональный инноватор, приносящий из будущего технологии, которые простыми способами решают сложные проблемы уже сейчас
+			<= Person2 $gd_meetup_profile
+				uri \https://meetup.kinsle.ru/source/images/valentin.png
+				name \Валентин Ульянов
+				description \Занимается разработкой инструментов и бэкендом на Node.js, делает редактор схем и диаграмм. Свой open source проект. ведёт местное IT-сообщество.
 		<= Button5 $gd_meetup_ui_title
 			text \Собираешься придти?
 			color \#F0F1F1

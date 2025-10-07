@@ -2,5 +2,6 @@ $gd_meetup_profile $mol_view
 	sub /
 		<= Avatar $mol_image
 			uri <= uri \
-		<= Name $mol_text text <= name \
-		<= Description $mol_text text <= description \
+		<= Info $mol_row sub /
+			<= Name $mol_paragraph title <= name \
+			<= Description $mol_paragraph title <= description \
