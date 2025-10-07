@@ -1,5 +1,9 @@
 $gd_meetup $mol_page
 	title \Гипер митап 2
+	Join $mol_link
+		title \Отметиться
+		uri \https://t.me/giper_dev/1074/37105
+	join <= Join
 	body /
 		<= Title1 $mol_text text \
 			\В прошлом году у нас был $mol_meetup
@@ -32,13 +36,15 @@ $gd_meetup $mol_page
 				uri \https://meetup.kinsle.ru/source/images/valentin.png
 				name \Валентин Ульянов
 				description \Занимается разработкой инструментов и бэкендом на Node.js, делает редактор схем и диаграмм. Свой open source проект. ведёт местное IT-сообщество.
+			<= Person3 $gd_meetup_profile
+				uri \https://meetup.kinsle.ru/source/images/stanislav.png
+				name \Станислав Яременко
+				description \Писал на Vue, Svelte, пробовал другие фреймворки. Как-то раз я загуглил "лучший ui фреймворк", и на первом месте в выдаче оказался $mol . Конечно, я не поверил и начал разбираться.
 		<= Button5 $gd_meetup_ui_title
 			text \Собираешься придти?
 			color \#F0F1F1
 		<= Text5 $mol_text text \Отметься в голосовалке на нашем форуме, чтобы мы понимали, какой размер помещения потребуется, чтобы было не слишком просторно.
-		<= Join2 $mol_button_major
-			title \Отметиться 
+		<= Join
 	foot /
 		<= Artefact $mol_text text \$mol — твой секретный артефакт.
-		<= Join $mol_button_major
-			title \Отметиться 
+		<= Join

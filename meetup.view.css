@@ -7,3 +7,13 @@
 [gd_meetup_persons] {
 	gap: 16px;
 }
+
+[gd_meetup_join] {
+	padding: 16px;
+	border: 1px solid #80B34D;
+	color: #80B34D;
+}
+
+[gd_meetup_ui_title] {
+	margin-top: 80px;
+}

@@ -3,3 +3,4 @@ $gd_meetup_ui_title $mol_text
 		background <= color \red
 		color \black
 		width \fit-content
+		border-radius \16px
