@@ -1,0 +1,16 @@
+$gd_meetup_place $mol_list
+	sub /
+		<= Date $gd_meetup_place_row
+			Icon <= Icon_calendar $mol_icon_calendar
+			text <= date \
+		<= Time $gd_meetup_place_row
+			Icon <= Icon_Time $mol_icon_alarm
+			text <= time \
+		<= Address $gd_meetup_place_row
+			Icon <= Icon2 $mol_icon_calendar
+			text <= address \
+
+$gd_meetup_place_row $mol_row
+	sub /
+		<= Icon $mol_icon
+		<= Text $mol_text text <= text \

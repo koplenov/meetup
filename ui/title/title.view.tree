@@ -1,0 +1,5 @@
+$gd_meetup_ui_title $mol_text
+	style *
+		background <= color \red
+		color \black
+		width \fit-content
